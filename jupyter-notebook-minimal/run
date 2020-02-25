@@ -1,0 +1,1 @@
+docker run --rm -p 10000:8888 -e JUPYTER_ENABLE_LAB=yes -v /home/aleksey:/home/aleksey/work --gpus all otherman16/jupyter-notebook-minimal:latest

@@ -1,0 +1,1 @@
+docker image build -t otherman16/jupyter-notebook-minimal:latest .

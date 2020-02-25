@@ -1,0 +1,1 @@
+docker run --rm -p 10000:8888 -p 10001:6006 -e JUPYTER_ENABLE_LAB=yes -v /home/aleksey:/home/aleksey/work --gpus all otherman16/jupyter-notebook-torch:latest
