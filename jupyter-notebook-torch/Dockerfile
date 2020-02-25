@@ -12,7 +12,6 @@ RUN conda install --quiet --yes pytorch torchvision cudatoolkit=10.1 -c pytorch 
 	pretrainedmodels \
 	segmentation-models-pytorch \
 	alchemy-catalyst \
-	tensorflow==2.1.0 \
 	opencv-python \
     && \
     conda clean --all -f -y \
